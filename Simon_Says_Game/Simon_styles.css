@@ -1,0 +1,33 @@
+body{
+    text-align:center;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    border: 5px solid black;
+    margin: 10px;
+}
+#box1{
+    background-color:#d95980;
+}
+#box2{
+    background-color: #f99b45;
+}
+#box3{
+    background-color: #63aac0;
+}
+#box4{
+    background-color: #819ff9;
+}
+.flash{
+    background-color: white;
+}
+#strtbtn,#newstrtbtn{
+    font-size: large;
+}
